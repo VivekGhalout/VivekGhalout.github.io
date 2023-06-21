@@ -23,7 +23,7 @@ function Navbar() {
       <a href="#skills" className='nav-link skills' onClick={() => setActiveNav('#skills')} id={activeNav === "#skills" ? 'active' : ""}><HiOutlineLightBulb/></a>
       <a href="#projects" className='nav-link projects' onClick={() => setActiveNav('#projects')} id={activeNav === "#projects" ? 'active' : ""}><MdWorkOutline/></a>
       <a href="#contact" className='nav-link contact' onClick={() => setActiveNav('#contact')} id={activeNav === "#contact" ? 'active' : ""}><BiMessageSquareAdd/></a>
-      <a href={Vivek_Ghalout_Resume} onClick={handleDownload} download className='nav-link resume' id="resume-button-1"><AiOutlineDownload/></a>
+      <a href={Vivek_Ghalout_Resume} onClick={handleDownload} download className='nav-link resume' id="resume-link-2"><AiOutlineDownload/></a>
     </nav>
   )
 }

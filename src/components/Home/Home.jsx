@@ -39,11 +39,11 @@ function Home() {
           </h5>
           <CTA />
           <div className='header_socials'>
-            <a href="https://www.linkedin.com/in/vivek-kumar-ghalout-a655551a1/" target='_blank'><BsLinkedin /></a>
-            <a href="https://github.com/VivekGhalout" target='_blank'><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/vivek-kumar-ghalout-a655551a1/" target='_blank' id="contact-linkedin"><BsLinkedin /></a>
+            <a href="https://github.com/VivekGhalout" target='_blank' id="contact-github"><FaGithub /></a>
           </div>
         </div>
-        <div className="me " data-aos="fade-left" data-aos-duration="2000">
+        <div className="me home-img" data-aos="fade-left" data-aos-duration="2000">
           <img src={ME} alt="my-img" />
         </div>
       </div>

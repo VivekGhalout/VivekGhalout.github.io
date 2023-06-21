@@ -17,12 +17,12 @@ function About() {
 
       <div className='container about_container' data-aos="fade-up" data-aos-duration="2000">
         <div className='about_me' data-aos="flip-left" data-aos-duration="2000">
-          <div className='about_me-image'>
+          <div className='about_me-image home-img'>
             <img src={ME} alt="About Img" />
           </div>
         </div>
 
-        <div className="about_content" data-aos="fade-up" data-aos-duration="2000">
+        <div className="about_content" id="user-detail-intro" data-aos="fade-up" data-aos-duration="2000">
           {/* <div className="about_cards">
             <article>
 

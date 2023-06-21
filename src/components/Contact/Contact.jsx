@@ -30,14 +30,14 @@ function Contact() {
 
       <div className="container contact_container" data-aos="fade-up" data-aos-duration="2000">
         <div className="contact_options">
-          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="2000">
+          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="2000" id="contact-email">
             <MdOutlineEmail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>vivek.ghalout@gmail.com</h5>
             <a href="mailto:vivek.ghalout@gmail.com" target='_blank'>Send a message</a>
           </article>
 
-          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="2000">
+          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="2000" id="contact-phone">
             <BsWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+917830368708</h5>

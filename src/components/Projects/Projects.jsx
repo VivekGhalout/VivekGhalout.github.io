@@ -45,6 +45,26 @@ const proData = [
     tech_stack: [<FaReact/>, <SiRedux/>, <SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <BsLightningCharge />],
     github: "https://github.com/Bharat-Shaw/Adventour/tree/main/adventour-app",
     live: "https://adventour-app.vercel.app/"
+  },
+  {
+    id: 1,
+    image1: fab2,
+    image2: fab1,
+    title: "Faballey",
+    discription: "Faballey is an e-commerce website that deals in women's clothing it is mainly famous for Western-style dresses.",
+    tech_stack: [<SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <FaBootstrap />],
+    github: "https://github.com/VivekGhalout/Unit-5-Construct-Week-Project",
+    live: "https://faballey-womens-clothing.netlify.app"
+  },
+  {
+    id: 1,
+    image1: adv2,
+    image2: adv1,
+    title: "Adventour",
+    discription: "Adventour is a online platform that offering travel packages and seamless booking services for various destinations worldwide.",
+    tech_stack: [<FaReact/>, <SiRedux/>, <SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <BsLightningCharge />],
+    github: "https://github.com/Bharat-Shaw/Adventour/tree/main/adventour-app",
+    live: "https://adventour-app.vercel.app/"
   }
 
 ]

@@ -7,8 +7,8 @@ function CTA() {
     window.open(Vivek_Ghalout_Resume, '_blank');
   };
   return (
-    <div className='cta'>
-        <a href={Vivek_Ghalout_Resume} download className='btn' id="resume-link-2" onClick={handleDownload}>Download CV</a>
+    <div className='cta' id="nav-menu">
+        <a href={Vivek_Ghalout_Resume} download className='btn' id="resume-link-1" onClick={handleDownload} >Download CV</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
     
