@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccdf010e.css",
-    "main.js": "/static/js/main.5da77177.js",
+    "main.css": "/static/css/main.e21d8b72.css",
+    "main.js": "/static/js/main.9c98d920.js",
     "static/js/787.ea9e47fe.chunk.js": "/static/js/787.ea9e47fe.chunk.js",
     "static/media/adventour2.png": "/static/media/adventour2.6fc02ffc2c9542756b2c.png",
     "static/media/nykaa2.png": "/static/media/nykaa2.a6cabf9181cdba45fdcf.png",
@@ -13,12 +13,12 @@
     "static/media/Vivek_Ghalout_Resume.pdf": "/static/media/Vivek_Ghalout_Resume.96ac5817e1c6d46f97bf.pdf",
     "static/media/me-about.jpg": "/static/media/me-about.7b37935887f081b3af24.jpg",
     "index.html": "/index.html",
-    "main.ccdf010e.css.map": "/static/css/main.ccdf010e.css.map",
-    "main.5da77177.js.map": "/static/js/main.5da77177.js.map",
+    "main.e21d8b72.css.map": "/static/css/main.e21d8b72.css.map",
+    "main.9c98d920.js.map": "/static/js/main.9c98d920.js.map",
     "787.ea9e47fe.chunk.js.map": "/static/js/787.ea9e47fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccdf010e.css",
-    "static/js/main.5da77177.js"
+    "static/css/main.e21d8b72.css",
+    "static/js/main.9c98d920.js"
   ]
 }
