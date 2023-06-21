@@ -1,0 +1,79 @@
+.git_calendar {
+    width: 48%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#top-langs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#github-top-langs {
+    width: 40%;
+    margin: auto;
+}
+
+#github-stat{
+    display: flex; 
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 1rem;
+}
+
+#github-streak-stats {
+    width: 30%;
+}
+
+#github-stats-card {
+    width: 30%;
+}
+
+/* ======== MEDIA QUERIES (MEDIUM SCREEN) =========== */
+
+@media screen and (max-width: 1024px) {
+    .git_calendar {
+        width: 86%;
+    }
+
+    #github-top-langs {
+        width: 50%;
+    }
+    
+    #github-streak-stats {
+        width: 43%;
+    }
+    
+    #github-stats-card {
+        width: 43%;
+    }
+}
+
+/* ======== MEDIA QUERIES (SMALL SCREEN) =========== */
+
+@media screen and (max-width: 600px) {
+
+    .git_calendar {
+        width: 90%;
+    }
+
+    #github-top-langs {
+        width: 80%;
+    }
+    
+    #github-streak-stats {
+        width: 80%;
+    }
+    
+    #github-stats-card {
+        width: 80%;
+    }
+
+    #github-stat{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
