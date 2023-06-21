@@ -43,8 +43,8 @@ function Home() {
             <a href="https://github.com/VivekGhalout" target='_blank' id="contact-github"><FaGithub /></a>
           </div>
         </div>
-        <div className="me home-img" data-aos="fade-left" data-aos-duration="2000">
-          <img src={ME} alt="my-img" />
+        <div className="me" data-aos="fade-left" data-aos-duration="2000">
+          <img src={ME} alt="my-img" className='home-img'/>
         </div>
       </div>
     </header>
