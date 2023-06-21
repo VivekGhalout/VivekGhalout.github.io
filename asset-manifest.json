@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/VivekGhalout.github.io/static/css/main.ccdf010e.css",
+    "main.js": "/VivekGhalout.github.io/static/js/main.e3b6552c.js",
+    "static/js/787.14319932.chunk.js": "/VivekGhalout.github.io/static/js/787.14319932.chunk.js",
+    "static/media/adventour2.png": "/VivekGhalout.github.io/static/media/adventour2.6fc02ffc2c9542756b2c.png",
+    "static/media/nykaa2.png": "/VivekGhalout.github.io/static/media/nykaa2.a6cabf9181cdba45fdcf.png",
+    "static/media/faballey1.png": "/VivekGhalout.github.io/static/media/faballey1.2cad6e2b42863087d50e.png",
+    "static/media/faballey2.png": "/VivekGhalout.github.io/static/media/faballey2.813ebf847255bbc68df8.png",
+    "static/media/nykaa1.png": "/VivekGhalout.github.io/static/media/nykaa1.611fd1265e0b9745e5d8.png",
+    "static/media/adventour1.png": "/VivekGhalout.github.io/static/media/adventour1.f708f909384ad38361dc.png",
+    "static/media/me2.png": "/VivekGhalout.github.io/static/media/me2.8e2a23bfa3810160a7f2.png",
+    "static/media/Vivek_Ghalout_Resume.pdf": "/VivekGhalout.github.io/static/media/Vivek_Ghalout_Resume.96ac5817e1c6d46f97bf.pdf",
+    "static/media/me-about.jpg": "/VivekGhalout.github.io/static/media/me-about.7b37935887f081b3af24.jpg",
+    "index.html": "/VivekGhalout.github.io/index.html",
+    "main.ccdf010e.css.map": "/VivekGhalout.github.io/static/css/main.ccdf010e.css.map",
+    "main.e3b6552c.js.map": "/VivekGhalout.github.io/static/js/main.e3b6552c.js.map",
+    "787.14319932.chunk.js.map": "/VivekGhalout.github.io/static/js/787.14319932.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccdf010e.css",
+    "static/js/main.e3b6552c.js"
+  ]
+}
