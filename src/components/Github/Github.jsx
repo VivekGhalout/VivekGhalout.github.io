@@ -35,7 +35,7 @@ export const Github = () => {
       </div>
       <div data-aos="fade-up" data-aos-duration="2000" id="github-stat" >
         <img
-          data-aos="fade-right"
+          data-aos="zoom-in-right"
           data-aos-duration="2000"
           id="github-stats-card"
           align="center"
@@ -43,7 +43,7 @@ export const Github = () => {
           alt="VivekGhalout"
         />
         <img
-          data-aos="fade-left"
+          data-aos="zoom-in-left"
           data-aos-duration="2000"
           id="github-streak-stats"
           align="center"

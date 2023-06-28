@@ -1,11 +1,11 @@
 import './Home.css';
 import Typewriter from "typewriter-effect";
-import CTA from './CTA';
 import ME from "../../assets/me2.png"
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import React, { useEffect } from 'react'
 import AOS from 'aos'
+import Vivek_Ghalout_Resume from "../../assets/Vivek_Ghalout_Resume.pdf"
 
 function Home() {
 
@@ -13,6 +13,10 @@ function Home() {
     AOS.init();
     AOS.refresh();
   }, [])
+
+  const handleDownload = () => {
+    window.open(Vivek_Ghalout_Resume, '_blank');
+  };
 
   return (
     <header id='home' className='container'>
@@ -37,14 +41,18 @@ function Home() {
               }}
             />
           </h5>
-          <CTA />
+          {/* <CTA /> */}
+          <div className='cta'>
+            <a href={Vivek_Ghalout_Resume} download className='btn' id="resume-link-2" onClick={handleDownload}>Download CV</a>
+            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </div>
           <div className='header_socials'>
             <a href="https://www.linkedin.com/in/vivek-kumar-ghalout-a655551a1/" target='_blank' id="contact-linkedin"><BsLinkedin /></a>
             <a href="https://github.com/VivekGhalout" target='_blank' id="contact-github"><FaGithub /></a>
           </div>
         </div>
         <div className="me" data-aos="fade-left" data-aos-duration="2000">
-          <img src={ME} alt="my-img" className='home-img'/>
+          {/* <img src={ME} alt="my-img" className='home-img'/> */}
         </div>
       </div>
     </header>

@@ -15,6 +15,26 @@ header {
     margin-top: -20px;
 }
 
+/* ============== MY NAME CSS ============== */
+h1 {
+    background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(205, 100%, 65%) 10%, hsl(0, 0%, 100%) 20%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 600px;
+    }
+}
+
+/* ============================ */
+
 .header_container {
     text-align: center;
     height: 100%;
@@ -38,26 +58,35 @@ header {
 }
 
 /* ======= My Img ======== */
+
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
-    margin: auto;
-    /* overflow: hidden; */
-    display: flex;
-    align-items: center;
+    background: url(../../assets/me-about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 9px rgba(77, 181, 255, 0.3);
+    justify-self: center;
+    order: 1;
+    width: 350px;
+    height: 350px;
+    animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
-.me>img {
-    /* border: 1px solid red; */
-    width: 125%;
-    height: 125%;
-    /* margin-left: -50px; */
-    margin-top: -85px;
-    border-bottom-right-radius: 800px;
-    border-bottom-left-radius: 800px;
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 }
+
+
 
 /* ======== MEDIA QUERIES (MEDIUM SCREEN) =========== */
 
