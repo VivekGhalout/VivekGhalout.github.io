@@ -55,7 +55,7 @@ function Home() {
           <img src={ME} alt="my-img" className='home-img'/>
         </div>
       </div>
-      <button id="resume-link-2">resume</button>
+      <button id="resume-button-2">resume</button>
     </header>
   )
 }
