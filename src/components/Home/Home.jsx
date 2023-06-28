@@ -41,6 +41,7 @@ function Home() {
               }}
             />
           </h5>
+          
           {/* <CTA /> */}
           <div className='cta'>
             <a href={Vivek_Ghalout_Resume} download className='btn' id="resume-link-2 resume-button-2" onClick={handleDownload}>Download CV</a>
