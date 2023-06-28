@@ -86,6 +86,9 @@ h1 {
     }
 }
 
+.me>img {
+    display: none;
+}
 
 
 /* ======== MEDIA QUERIES (MEDIUM SCREEN) =========== */
