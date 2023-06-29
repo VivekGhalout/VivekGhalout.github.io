@@ -11,10 +11,10 @@ export const Github = () => {
   }, []);
 
   return (
-    <section data-aos="fade-up" data-aos-duration="2000">
-      <h5 data-aos="fade-up" data-aos-duration="2000">My Github</h5>
-      <h2 data-aos="fade-up" data-aos-duration="2000">My Contributions and Stats</h2>
-      <div data-aos="fade-up" data-aos-duration="2000" className="git_calendar">
+    <section data-aos="fade-up" data-aos-duration="1500">
+      <h5 data-aos="fade-up" data-aos-duration="1500">My Github</h5>
+      <h2 data-aos="fade-up" data-aos-duration="1500">My Contributions and Stats</h2>
+      <div data-aos="fade-up" data-aos-duration="1500" className="git_calendar">
 
         <GitHubCalendar
           fontSize={16}
@@ -23,7 +23,7 @@ export const Github = () => {
           username="VivekGhalout"
         />
       </div>
-      <div id="top-langs" data-aos="zoom-in" data-aos-duration="2000">
+      <div id="top-langs" data-aos="zoom-in" data-aos-duration="1500">
 
         <img
 
@@ -33,10 +33,10 @@ export const Github = () => {
           alt="VivekGhalout"
         />
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000" id="github-stat" >
+      <div data-aos="fade-up" data-aos-duration="1500" id="github-stat" >
         <img
           data-aos="zoom-in-right"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           id="github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=VivekGhalout&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=FFFFFF00&text_color=c3c3c3&title_color=c3c3c3"
@@ -44,7 +44,7 @@ export const Github = () => {
         />
         <img
           data-aos="zoom-in-left"
-          data-aos-duration="2000"
+          data-aos-duration="1500"
           id="github-streak-stats"
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=VivekGhalout&theme=dark&hide_border=true&background=FFFFFF00&sideNums=c3c3c3&sideLabels=c3c3c3&ring=4db5ff&fire=4db5ff&currStreakLabel=4db5ff&currStreakNum=4db5ff"

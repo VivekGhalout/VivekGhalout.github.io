@@ -22,11 +22,11 @@ function Skills() {
 
   return (
     <section id='skills'>
-      <h5 data-aos="fade-up" data-aos-duration="2000">What Skills I Have</h5>
-      <h2 data-aos="fade-up" data-aos-duration="2000">My Skills</h2>
+      <h5 data-aos="fade-up" data-aos-duration="1500">What Skills I Have</h5>
+      <h2 data-aos="fade-up" data-aos-duration="1500">My Skills</h2>
 
       <div className="container skills_container">
-        <div className="skills_frontend" data-aos="zoom-in-right" data-aos-duration="2000">
+        <div className="skills_frontend" data-aos="zoom-in-right" data-aos-duration="1500">
           <h2>Frontend Development</h2>
           <div className="skills_content">
             <article className='skills_details skills-card'>
@@ -74,7 +74,7 @@ function Skills() {
           </div>
         </div>
 
-        <div className="skills_backend" data-aos="zoom-in-left" data-aos-duration="2000">
+        <div className="skills_backend" data-aos="zoom-in-left" data-aos-duration="1500">
           <h2>Backend Development</h2>
           <div className="skills_content">
             <article className='skills_details skills-card'>

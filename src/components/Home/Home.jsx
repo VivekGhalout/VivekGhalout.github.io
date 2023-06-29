@@ -21,9 +21,9 @@ function Home() {
   return (
     <header id='home' className='container'>
       <div className='home-main-div'>
-        <div className='container header_conrainer' data-aos="fade-right" data-aos-duration="2000">
+        <div className='container header_conrainer' data-aos="fade-right" data-aos-duration="1500">
           <h5>Hello 👋, I'm</h5>
-          <h1 id="user-detail-name">Vivek Kumar Ghalout</h1>
+          <h1 id="user-detail-name">Vivek Kumar Ghalout.</h1>
           <h5 className='text-light'>
             <Typewriter
               options={{
@@ -32,10 +32,10 @@ function Home() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString("I Do Frontend.")
-                  .pause(2000)
+                  .pause(1500)
                   .deleteAll()
                   .typeString("I Do Backend.")
-                  .pause(2000)
+                  .pause(1500)
                   .deleteAll()
                   .start();
               }}
@@ -52,7 +52,7 @@ function Home() {
             <a href="https://github.com/VivekGhalout" target='_blank' id="contact-github"><FaGithub /></a>
           </div>
         </div>
-        <div className="me" data-aos="fade-left" data-aos-duration="2000">
+        <div className="me" data-aos="fade-left" data-aos-duration="1500">
           <img src={ME} alt="my-img" className='home-img'/>
         </div>
       </div>

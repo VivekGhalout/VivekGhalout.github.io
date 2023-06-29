@@ -27,7 +27,7 @@ const proData = [
     live: "https://nykaacosmetics.netlify.app"
   },
   {
-    id: 1,
+    id: 2,
     image1: fab2,
     image2: fab1,
     title: "Faballey",
@@ -37,27 +37,7 @@ const proData = [
     live: "https://faballey-womens-clothing.netlify.app"
   },
   {
-    id: 1,
-    image1: adv2,
-    image2: adv1,
-    title: "Adventour",
-    discription: "Adventour is a online platform that offering travel packages and seamless booking services for various destinations worldwide.",
-    tech_stack: [<FaReact/>, <SiRedux/>, <SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <BsLightningCharge />],
-    github: "https://github.com/Bharat-Shaw/Adventour/tree/main/adventour-app",
-    live: "https://adventour-app.vercel.app/"
-  },
-  {
-    id: 1,
-    image1: fab2,
-    image2: fab1,
-    title: "Faballey",
-    discription: "Faballey is an e-commerce website that deals in women's clothing it is mainly famous for Western-style dresses.",
-    tech_stack: [<SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <FaBootstrap />],
-    github: "https://github.com/VivekGhalout/Unit-5-Construct-Week-Project",
-    live: "https://faballey-womens-clothing.netlify.app"
-  },
-  {
-    id: 1,
+    id: 3,
     image1: adv2,
     image2: adv1,
     title: "Adventour",
@@ -79,15 +59,15 @@ function Projects() {
   }, [])
 
   return (
-    <section id='projects' data-aos="fade-up" data-aos-duration="2000">
-      <h5 data-aos="fade-up" data-aos-duration="2000">My Recent Work</h5>
-      <h2 data-aos="fade-up" data-aos-duration="2000">Projects</h2>
+    <section id='projects' data-aos="fade-up" data-aos-duration="1500">
+      <h5 data-aos="fade-up" data-aos-duration="1500">My Recent Work</h5>
+      <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
 
-      <div className="container projects_container" data-aos="fade-up" data-aos-duration="2000">
+      <div className="container projects_container" data-aos="fade-up" data-aos-duration="1500">
         {
           proData.map((ele) => {
             return (
-              <article className='projects_item project-card' data-aos="zoom-in" data-aos-duration="2000">
+              <article className='projects_item project-card' data-aos="zoom-in" data-aos-duration="1500">
                 <div className="projects_item-image">
                   <img src={ele.image1} alt="img1" className='top-img'/>
                   <img src={ele.image2} alt="img2" />

@@ -10,8 +10,16 @@ import { Github } from './components/Github/Github';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import React, { useCallback } from 'react';
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesOptions from "./particles.json";
 
 function App() {
+
+  const particlesInit = useCallback(main => {
+    loadFull(main);
+  }, [])
 
   useEffect(() => {
     AOS.init();
@@ -25,9 +33,10 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Github/>
+      <Github />
       <Contact />
       <Footer />
+      <Particles options={particlesOptions} init={particlesInit}/>
     </div>
   );
 }

@@ -14,8 +14,10 @@
     "react-dom": "^18.2.0",
     "react-github-calendar": "^4.0.0",
     "react-icons": "^4.9.0",
+    "react-particles": "^2.10.1",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
+    "tsparticles": "^2.10.1",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
   },

@@ -8,7 +8,8 @@ header {
 }
 
 .container>h5 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 550;
 }
 
 .container>h1 {
@@ -17,7 +18,9 @@ header {
 
 /* ============== MY NAME CSS ============== */
 h1 {
-    background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(205, 100%, 65%) 10%, hsl(0, 0%, 100%) 20%);
+    /* background: linear-gradient(to right, hsla(214, 12%, 39%, 1), hsla(214, 41%, 78%, 1) 10%, hsla(214, 12%, 39%, 1) 20%); */
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%)20%);
+    font-weight: 600;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
@@ -104,15 +107,17 @@ h1 {
     }
 
     .container>h5 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .container>h1 {
-        font-size: 3rem;
-        margin-top: -10px;
+        font-size: 4rem;
+        line-height: 1.2;
+        margin-top: 10px;
     }
 
     .me {
+        margin: auto;
         margin-top: 80px;
     }
 }
@@ -120,18 +125,23 @@ h1 {
 /* ======== MEDIA QUERIES (SMALL SCREEN) =========== */
 
 @media screen and (max-width: 600px) {
+    header {
+        padding-top: 3rem;
+    }
+
     .home-main-div {
         display: flex;
         flex-direction: column;
     }
 
     .container>h5 {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .container>h1 {
-        font-size: 2rem;
-        margin-top: -10px;
+        font-size: 2.8rem;
+        line-height: 1.2;
+        margin-top: 10px;
     }
 
     .header_socials {
