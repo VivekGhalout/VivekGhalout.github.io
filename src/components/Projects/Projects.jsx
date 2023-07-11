@@ -22,7 +22,7 @@ const proData = [
     image2: nyk2,
     title: "Nykaa",
     discription: "Nykaa is India's leading online beauty and wellness destination, providing a wide range of cosmetic and skincare products.",
-    tech_stack: [<SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <FaBootstrap />],
+    tech_stack: ["JavaScript,", "HTML,", "CSS,", "Bootstrap"],
     github: "https://github.com/VivekGhalout/Construct-Week-Project-/tree/main/Nykaa",
     live: "https://nykaacosmetics.netlify.app"
   },
@@ -32,7 +32,7 @@ const proData = [
     image2: fab1,
     title: "Faballey",
     discription: "Faballey is an e-commerce website that deals in women's clothing it is mainly famous for Western-style dresses.",
-    tech_stack: [<SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <FaBootstrap />],
+    tech_stack: ["JavaScript,", "HTML,", "CSS,", "Bootstrap"],
     github: "https://github.com/VivekGhalout/Unit-5-Construct-Week-Project",
     live: "https://faballey-womens-clothing.netlify.app"
   },
@@ -42,7 +42,7 @@ const proData = [
     image2: adv1,
     title: "Adventour",
     discription: "Adventour is a online platform that offering travel packages and seamless booking services for various destinations worldwide.",
-    tech_stack: [<FaReact/>, <SiRedux/>, <SiJavascript />, <AiFillHtml5 />, <DiCss3 />, <BsLightningCharge />],
+    tech_stack: ["React,", " Redux,", " JavaScript,", " HTML,", " CSS"],
     github: "https://github.com/Bharat-Shaw/Adventour/tree/main/adventour-app",
     live: "https://adventour-app.vercel.app/"
   }
@@ -76,7 +76,7 @@ function Projects() {
                 <h5 className='project-description'>{ele.discription}</h5>
                 <div className='project-tech-stack'>
                   {ele.tech_stack.map((tech) => {
-                    return (tech)
+                    return (<p>{tech}</p>)
                   })}
                 </div>
                 <div className="projects_item-btns">

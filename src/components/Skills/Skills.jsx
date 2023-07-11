@@ -10,6 +10,10 @@ import { FaNodeJs } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
+import { FaGitAlt } from 'react-icons/fa';
+import { TbBrandVscode } from 'react-icons/tb';
+import { SiPostman } from 'react-icons/si';
+import { SiVite } from 'react-icons/si';
 import AOS from 'aos'
 
 function Skills() {
@@ -112,6 +116,42 @@ function Skills() {
                 <small className='text-light'>Experienced</small>
               </div>
             </article> */}
+          </div>
+        </div>
+      </div>
+      <div className='container tools_container skills_container'>
+        <div className="skills_backend" data-aos="zoom-in-left" data-aos-duration="1500">
+          <h2>Tools I have Used</h2>
+          <div className="skills_content tools_content">
+            <article className='skills_details skills-card'>
+              <FaGitAlt className='skills-card-img' />
+              <div>
+                <h4 className='skills-card-name'>Git</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='skills_details skills-card'>
+              <TbBrandVscode className='skills-card-img' />
+              <div>
+                <h4 className='skills-card-name'>VScode</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='skills_details skills-card'>
+              <SiPostman className='skills-card-img' />
+              <div>
+                <h4 className='skills-card-name'>Postman</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='skills_details skills-card'>
+              <SiVite className='skills-card-img' />
+              <div>
+                <h4 className='skills-card-name'>Vite</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
           </div>
         </div>
       </div>

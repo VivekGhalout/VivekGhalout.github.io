@@ -18,13 +18,13 @@ function Navbar() {
 
   return (
     <nav id="nav-menu">
-      <a href="#home" className='nav-link home' onClick={() => setActiveNav('#')} id={activeNav === "#" ? 'active' : ""}><AiOutlineHome /></a>
-      <a href="#about" className='nav-link about' onClick={() => setActiveNav('#about')} id={activeNav === "#about" ? 'active' : ""}><AiOutlineUser /></a>
-      <a href="#skills" className='nav-link skills' onClick={() => setActiveNav('#skills')} id={activeNav === "#skills" ? 'active' : ""}><HiOutlineLightBulb /></a>
-      <a href="#projects" className='nav-link projects' onClick={() => setActiveNav('#projects')} id={activeNav === "#projects" ? 'active' : ""}><MdWorkOutline /></a>
-      <a href="#contact" className='nav-link contact' onClick={() => setActiveNav('#contact')} id={activeNav === "#contact" ? 'active' : ""}><BiMessageSquareAdd /></a>
+      <a href="#home" className='nav-link home' onClick={() => setActiveNav('#')} id={activeNav === "#" ? 'active' : ""}><AiOutlineHome /> <span>Home</span></a>
+      <a href="#about" className='nav-link about' onClick={() => setActiveNav('#about')} id={activeNav === "#about" ? 'active' : ""}><AiOutlineUser /> <span>About</span></a>
+      <a href="#skills" className='nav-link skills' onClick={() => setActiveNav('#skills')} id={activeNav === "#skills" ? 'active' : ""}><HiOutlineLightBulb /> <span>Skills</span></a>
+      <a href="#projects" className='nav-link projects' onClick={() => setActiveNav('#projects')} id={activeNav === "#projects" ? 'active' : ""}><MdWorkOutline /> <span>Projects</span></a>
+      <a href="#contact" className='nav-link contact' onClick={() => setActiveNav('#contact')} id={activeNav === "#contact" ? 'active' : ""}><BiMessageSquareAdd /> <span>Contact</span></a>
       <div className='nav-link resume'>
-        <a href={Vivek_Ghalout_Resume} onClick={handleDownload} download id="resume-link-1 resume-button-1"><AiOutlineDownload /></a>
+        <a href={Vivek_Ghalout_Resume} onClick={handleDownload} download id="resume-link-1 resume-button-1"><AiOutlineDownload /> <span>Resume</span></a>
       </div>
     </nav>
   )

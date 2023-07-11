@@ -6,6 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import Vivek_Ghalout_Resume from "../../assets/Vivek_Ghalout_Resume.pdf"
+import { AiOutlineDownload } from 'react-icons/ai';
 
 function Home() {
 
@@ -44,7 +45,7 @@ function Home() {
           
           {/* <CTA /> */}
           <div className='cta'>
-            <a href={Vivek_Ghalout_Resume} download className='btn' id="resume-link-2 resume-button-2" onClick={handleDownload}>Download CV</a>
+            <a href={Vivek_Ghalout_Resume} download className='btn' id="resume-button-2" onClick={handleDownload}>Resume</a>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>
           <div className='header_socials'>

@@ -52,6 +52,11 @@ h1 {
     gap: 1.2rem;
 }
 
+#resume-button-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /* ======= Social ======== */
 .header_socials {
     display: flex;

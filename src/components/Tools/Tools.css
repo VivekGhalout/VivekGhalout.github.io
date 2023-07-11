@@ -4,22 +4,12 @@
     gap: 2rem;
 }
 
-.tools_container {
-    margin-top: 2.3rem;
-    display: flex;
-    justify-content: center;
-}
-
 .skills_container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-}
-
-.tools_container > div {
-    padding: 3rem 5rem;
 }
 
 .skills_container > div:hover {
@@ -36,15 +26,8 @@
 
 .skills_content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     row-gap: 2rem;
-}
-
-.tools_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 3rem;
-    column-gap: 7rem;
 }
 
 .skills_details {
@@ -57,8 +40,6 @@
     color: var(--color-primary);
     font-size: 25px;
 }
-
-
 
 /* ======== MEDIA QUERIES (MEDIUM SCREEN) =========== */
 
@@ -75,9 +56,6 @@
 
     .skills_content {
         padding: 1rem;
-    }
-    .tools_content {
-        column-gap: 0rem;
     }
 }
 

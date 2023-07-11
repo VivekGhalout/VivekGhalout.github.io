@@ -19,17 +19,37 @@ nav a {
     padding: 0.7rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
+}
+
+span {
+    font-size: 1rem;
+    margin-left: 5px;
 }
 
 nav a:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 
-nav a#active {
+/* nav a#active {
     background: var(--color-bg);
     color: var(--color-white);
+} */
+
+@media screen and (max-width: 1024px) {
+    span {
+        display: none;
+    }
+
+    nav a {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    nav {
+        gap: 1.5rem;
+    }
 }
 
 /* ======== MEDIA QUERIES (SMALL SCREEN) =========== */
@@ -42,5 +62,8 @@ nav a#active {
 
     nav {
         gap: 0.6rem;
+    }
+    span {
+        display: none;
     }
 }
