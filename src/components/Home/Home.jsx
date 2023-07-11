@@ -22,7 +22,7 @@ function Home() {
   return (
     <header id='home' className='container'>
       <div className='home-main-div'>
-        <div className='container header_conrainer' data-aos="fade-right" data-aos-duration="1500">
+        <div className='container header_conrainer' data-aos="fade-right" data-aos-duration="1000">
           <h5>Hello 👋, I'm</h5>
           <h1 id="user-detail-name">Vivek Kumar Ghalout.</h1>
           <h5 className='text-light'>
@@ -53,7 +53,7 @@ function Home() {
             <a href="https://github.com/VivekGhalout" target='_blank' id="contact-github"><FaGithub /></a>
           </div>
         </div>
-        <div className="me" data-aos="fade-left" data-aos-duration="1500">
+        <div className="me" data-aos="fade-left" data-aos-duration="1000">
           <img src={ME} alt="my-img" className='home-img'/>
         </div>
       </div>

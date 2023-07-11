@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.png'
 import AOS from 'aos'
 
 function About() {
@@ -11,18 +11,18 @@ function About() {
   }, [])
 
   return (
-    <section id='about' data-aos="fade-up" data-aos-duration="1500" className='about section'>
-      <h5 data-aos="fade-up" data-aos-duration="1500">Get To Know</h5>
-      <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
+    <section id='about' data-aos="fade-up" data-aos-duration="1000" className='about section'>
+      <h5 data-aos="fade-up" data-aos-duration="1000">Get To Know</h5>
+      <h2 data-aos="fade-up" data-aos-duration="1000">About Me</h2>
 
-      <div className='container about_container' data-aos="fade-up" data-aos-duration="1500">
-        <div className='about_me' data-aos="flip-left" data-aos-duration="1500">
+      <div className='container about_container' data-aos="fade-up" data-aos-duration="1000">
+        <div className='about_me' data-aos="flip-left" data-aos-duration="1000">
           <div className='about_me-image home-img'>
             <img src={ME} alt="About Img" />
           </div>
         </div>
 
-        <div className="about_content" id="user-detail-intro" data-aos="fade-up" data-aos-duration="1500">
+        <div className="about_content" id="user-detail-intro" data-aos="fade-up" data-aos-duration="1000">
           {/* <div className="about_cards">
             <article>
 

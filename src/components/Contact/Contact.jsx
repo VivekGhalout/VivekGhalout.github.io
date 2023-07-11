@@ -24,20 +24,20 @@ function Contact() {
   };
 
   return (
-    <section id='contact' data-aos="fade-up" data-aos-duration="1500">
-      <h5 data-aos="fade-up" data-aos-duration="1500">Get In Touch</h5>
-      <h2 data-aos="fade-up" data-aos-duration="1500">Contact Me</h2>
+    <section id='contact' data-aos="fade-up" data-aos-duration="1000">
+      <h5 data-aos="fade-up" data-aos-duration="1000">Get In Touch</h5>
+      <h2 data-aos="fade-up" data-aos-duration="1000">Contact Me</h2>
 
-      <div className="container contact_container" data-aos="fade-up" data-aos-duration="1500">
+      <div className="container contact_container" data-aos="fade-up" data-aos-duration="1000">
         <div className="contact_options">
-          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="1500" id="contact-email">
+          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="1000" id="contact-email">
             <MdOutlineEmail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>vivek.ghalout@gmail.com</h5>
             <a href="mailto:vivek.ghalout@gmail.com" target='_blank'>Send a message</a>
           </article>
 
-          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="1500" id="contact-phone">
+          <article className='contact_option' data-aos="zoom-in-right" data-aos-duration="1000" id="contact-phone">
             <BsWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+917830368708</h5>
@@ -45,7 +45,7 @@ function Contact() {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail} data-aos="zoom-in-left" data-aos-duration="1500">
+        <form ref={form} onSubmit={sendEmail} data-aos="zoom-in-left" data-aos-duration="1000">
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>

@@ -59,15 +59,15 @@ function Projects() {
   }, [])
 
   return (
-    <section id='projects' data-aos="fade-up" data-aos-duration="1500">
-      <h5 data-aos="fade-up" data-aos-duration="1500">My Recent Work</h5>
-      <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+    <section id='projects' data-aos="fade-up" data-aos-duration="1000">
+      <h5 data-aos="fade-up" data-aos-duration="1000">My Recent Work</h5>
+      <h2 data-aos="fade-up" data-aos-duration="1000">Projects</h2>
 
-      <div className="container projects_container" data-aos="fade-up" data-aos-duration="1500">
+      <div className="container projects_container" data-aos="fade-up" data-aos-duration="1000">
         {
           proData.map((ele) => {
             return (
-              <article className='projects_item project-card' data-aos="zoom-in" data-aos-duration="1500">
+              <article className='projects_item project-card' data-aos="zoom-in" data-aos-duration="1000">
                 <div className="projects_item-image">
                   <img src={ele.image1} alt="img1" className='top-img'/>
                   <img src={ele.image2} alt="img2" />
