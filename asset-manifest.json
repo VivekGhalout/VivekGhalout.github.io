@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a550384d.css",
-    "main.js": "/static/js/main.b3e3dceb.js",
+    "main.css": "/static/css/main.76e1d725.css",
+    "main.js": "/static/js/main.e1de4231.js",
     "static/js/787.ea9e47fe.chunk.js": "/static/js/787.ea9e47fe.chunk.js",
+    "static/media/me-about.png": "/static/media/me-about.6d991cf8729fe9a16449.png",
     "static/media/adventour2.png": "/static/media/adventour2.6fc02ffc2c9542756b2c.png",
     "static/media/nykaa2.png": "/static/media/nykaa2.a6cabf9181cdba45fdcf.png",
     "static/media/faballey1.png": "/static/media/faballey1.2cad6e2b42863087d50e.png",
     "static/media/faballey2.png": "/static/media/faballey2.813ebf847255bbc68df8.png",
-    "static/media/me-about.jpg": "/static/media/me-about.0f7e7016d9ebb9e4095c.jpg",
     "static/media/nykaa1.png": "/static/media/nykaa1.611fd1265e0b9745e5d8.png",
     "static/media/adventour1.png": "/static/media/adventour1.f708f909384ad38361dc.png",
     "static/media/me2.png": "/static/media/me2.8e2a23bfa3810160a7f2.png",
     "static/media/Vivek_Ghalout_Resume.pdf": "/static/media/Vivek_Ghalout_Resume.09868a13b6a864c1ce18.pdf",
     "index.html": "/index.html",
-    "main.a550384d.css.map": "/static/css/main.a550384d.css.map",
-    "main.b3e3dceb.js.map": "/static/js/main.b3e3dceb.js.map",
+    "main.76e1d725.css.map": "/static/css/main.76e1d725.css.map",
+    "main.e1de4231.js.map": "/static/js/main.e1de4231.js.map",
     "787.ea9e47fe.chunk.js.map": "/static/js/787.ea9e47fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a550384d.css",
-    "static/js/main.b3e3dceb.js"
+    "static/css/main.76e1d725.css",
+    "static/js/main.e1de4231.js"
   ]
 }
