@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.76e1d725.css",
+    "main.css": "/static/css/main.1bf4216d.css",
     "main.js": "/static/js/main.e1de4231.js",
     "static/js/787.ea9e47fe.chunk.js": "/static/js/787.ea9e47fe.chunk.js",
     "static/media/me-about.png": "/static/media/me-about.6d991cf8729fe9a16449.png",
@@ -13,12 +13,12 @@
     "static/media/me2.png": "/static/media/me2.8e2a23bfa3810160a7f2.png",
     "static/media/Vivek_Ghalout_Resume.pdf": "/static/media/Vivek_Ghalout_Resume.09868a13b6a864c1ce18.pdf",
     "index.html": "/index.html",
-    "main.76e1d725.css.map": "/static/css/main.76e1d725.css.map",
+    "main.1bf4216d.css.map": "/static/css/main.1bf4216d.css.map",
     "main.e1de4231.js.map": "/static/js/main.e1de4231.js.map",
     "787.ea9e47fe.chunk.js.map": "/static/js/787.ea9e47fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76e1d725.css",
+    "static/css/main.1bf4216d.css",
     "static/js/main.e1de4231.js"
   ]
 }
