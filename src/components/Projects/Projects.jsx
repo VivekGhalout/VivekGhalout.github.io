@@ -24,7 +24,7 @@ const proData = [
     discription: "Nykaa is India's leading online beauty and wellness destination, providing a wide range of cosmetic and skincare products.",
     tech_stack: ["JavaScript,", "HTML,", "CSS,", "Bootstrap"],
     github: "https://github.com/VivekGhalout/Construct-Week-Project-/tree/main/Nykaa",
-    live: "https://nykaacosmetics.netlify.app"
+    live: "https://nykaa-clone-x4n7-git-main-ghalout.vercel.app/"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const proData = [
     discription: "Faballey is an e-commerce website that deals in women's clothing it is mainly famous for Western-style dresses.",
     tech_stack: ["JavaScript,", "HTML,", "CSS,", "Bootstrap"],
     github: "https://github.com/VivekGhalout/Unit-5-Construct-Week-Project",
-    live: "https://faballey-womens-clothing.netlify.app"
+    live: "https://faballey-clone-six.vercel.app/"
   },
   {
     id: 3,
